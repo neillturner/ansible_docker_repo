@@ -1,5 +1,5 @@
-# ansible_vagrant_repo
-Ansible Repository for testing ansible using test kitchen with Vagrant.
+# ansible_docker_repo
+Ansible Repository for testing ansible using test kitchen with Docker.
 The tests are stored in the in /test/integration (as in the chef format)
 
 This demonstrates using test-kitchen, ansible and kitchen-verifier-serverspec to build and verify a server.
