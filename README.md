@@ -33,24 +33,24 @@ NOTE: I used Windows Kitematic and select Docker CLI from the bottom of the scre
 This will return a list if everyting is correctly installed.
 
 
-## Create Servers in Virtual Box on your Workstation.
+## Create Servers in Docker on your Workstation.
 ```
-kitchen create ansible-centos-7 -l debug
+kitchen create ansible-centos-8 -l debug
 ```
 
 ## Build the server.
 ```
-kitchen converge ansible-centos-7 -l debug
+kitchen converge ansible-centos-8 -l debug
 ```
 
 ## Verify the server.
 ```
-kitchen verify ansible-centos-7 -l debug
+kitchen verify ansible-centos-8 -l debug
 ```
 
 ## Destroy the server.
 ```
-kitchen destroy ansible-centos-7 -l debug
+kitchen destroy ansible-centos-8 -l debug
 
 ```
 ## References
